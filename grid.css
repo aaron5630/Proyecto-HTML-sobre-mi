@@ -1,0 +1,45 @@
+
+.body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--color-de-fondo);
+    width: 100vw;
+}
+:root{
+    --color-tarjetas: #cdb4db;
+    --color-de-fondo: #bde0fe;
+    --color-de-links:#054379;
+}
+/*.container{
+    background-color: cornflowerblue;
+    margin: 10px;
+}*/
+/*.container-fluid{
+    background-color: coral;
+}*/
+/*.row{
+    background-color: aquamarine;
+}*/
+
+.card{
+    background-color: var(--color-tarjetas);
+}
+.accordion-button{
+    background-color: var(--color-tarjetas);
+}
+.list-group-item{
+    background-color: var(--color-tarjetas);
+}
+
+.card-link{
+    color: var(--color-de-links);
+    text-decoration: none;
+}
+.card-link:hover {
+    color: rgb(201, 29, 29);;
+}
+
+.row{
+    justify-content: center;
+}
